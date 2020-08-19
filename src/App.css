@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile {
+  display: flex;
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  background-color: #333;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile .left img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1vh solid #666;
+}
+.profile .right {
+  width: 80vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 100vh;
+  padding-left: 3vw;
+}
+
+.profile .right h1 {
+  color: #353941;
+  font-family: "Anton", sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+.profile .right p {
+  font-family: "Roboto", sans-serif;
+  color: #6d737e;
+  font-size: 20px;
+}
+
+.profile .right h1 span {
+  color: #666;
+}
+
+.profile .right ul {
+  list-style: none;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  width: 25vw;
+}
+.profile .right ul li a {
   color: white;
+  font-size: 4vh;
+  padding: 2vh;
+  border-radius: 50%;
+  background-color: #4a4e58;
+  width: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile .right ul li a:hover {
+  background-color: white;
+  color: #4a4e58;
 }
