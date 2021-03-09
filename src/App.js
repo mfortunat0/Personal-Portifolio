@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import Img from "./photo.jpg";
 import {
   FaLinkedinIn,
   FaGithub,
@@ -13,7 +12,7 @@ function App() {
   return (
     <section className="profile">
       <div className="left">
-        <img src={Img} alt="" />
+        <img src="https://avatars.githubusercontent.com/u/22817703?v=4" alt="" />
       </div>
       <div className="right">
         <h1>
@@ -32,7 +31,7 @@ function App() {
             </a>
           </li>
           <li>
-            <a href="https://github.com/xmaz10" target="__blank">
+            <a href="https://github.com/mfortunat0" target="__blank">
               <FaGithub />
             </a>
           </li>
