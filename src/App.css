@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+
+body{
+  background-color: #ccc;
+}
 .profile {
   display: flex;
   height: 100vh;
@@ -36,15 +40,48 @@
   font-weight: 200;
   text-transform: uppercase;
   font-size: 80px;
+  animation: 3s changeColor2 infinite;
 }
+
+@keyframes changeColor2 {
+  0%{
+    color: #353941
+  }
+  50%{
+    color: #666;
+  }
+  100%{
+    color: #353941
+  }
+}
+
 .profile .right p {
   font-family: "Roboto", sans-serif;
-  color: #6d737e;
+  color: #353941;
   font-size: 20px;
+}
+
+.profile .right .description{
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-size: 15px;
 }
 
 .profile .right h1 span {
   color: #666;
+  animation: 3s changeColor1 infinite;
+}
+
+@keyframes changeColor1 {
+  0%{
+    color: #666;
+  }
+  50%{
+    color: #353941
+  }
+  100%{
+    color: #666;
+  }
 }
 
 .profile .right ul {
@@ -69,6 +106,6 @@
 }
 
 .profile .right ul li a:hover {
-  background-color: white;
+  background-color:  #ccc;;
   color: #4a4e58;
 }

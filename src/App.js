@@ -18,8 +18,16 @@ function App() {
         <h1>
           Matheus <span>Fortunato</span>
         </h1>
-        <p className="description">
+        <p>
           Fullstack javascript developer and Mobile.
+        </p>
+        <br/>
+        <p className="description">
+          Hello, I am a student of computer engineering.<br />
+          I started programming in 2015 in a technical course, I programmed in c/c ++,
+          java, php during the course until 2016.<br />
+          In 2018 I started to study javascript and until today I continue to improve.<br />
+          My goals for improvement are Node.js React.js and React Native 
         </p>
         <ul>
           <li>
