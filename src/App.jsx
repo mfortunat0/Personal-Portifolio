@@ -23,13 +23,13 @@ function App() {
       <h1>Matheus N. Fortunato</h1>
       <h2>Full-Stack Developer</h2>
       <div className="Stacks">
-        <a>
+        <a href="https://nodejs.org/en/" target="__blank">
           <FaNodeJs />
         </a>
-        <a>
+        <a href="https://reactjs.org/" target="__blank">
           <FaReact />
         </a>
-        <a>
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="__blank">
           <FaJsSquare />
         </a>
       </div>
@@ -38,19 +38,20 @@ function App() {
       </address>
 
       <div className="Contact">
-        <a href="">
+        <a href="https://github.com/mfortunat0" target="__blank">
           <FaGithub />
         </a>
-        <a href="">
+        <a href="https://www.linkedin.com/in/matheus-fortunato-14513b195/"
+              target="__blank">
           <FaLinkedinIn />
         </a>
-        <a href="">
+        <a href="https://t.me/mfortunato20" target="__blank">
           <FaTelegramPlane />
         </a>
-        <a href="">
+        <a href="skype:matheus.nascimento105?chat">
           <FaSkype />
         </a>
-        <a href="">
+        <a  href="mailto:matheus.xmaz10@gmail.com">
           <FaGoogle />
         </a>
       </div>
