@@ -83,8 +83,16 @@ a {
 }
 
 .Contact {
-  margin-top: 35px;
+  display:flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
+
+.Contact a{
+  margin-top: 15px;
+}
+
+
 
 .Contact a:nth-child(1) {
   background-color: #181717;
@@ -149,5 +157,9 @@ h3 {
 @media(max-width: 345px){
   section{
     width: 85vw;
+  }
+  .Contact{
+    margin-top: 10px;
+    width: 70%;
   }
 }
