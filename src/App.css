@@ -103,6 +103,14 @@ a {
   background-color: #4285f4;
 }
 
+.Contact a:nth-child(6) {
+  background-color: #000000;
+}
+
+.Contact a:nth-child(7) {
+  background-color: #1DA1F2;
+}
+
 address {
   margin-top: 35px;
   font-weight: 400;

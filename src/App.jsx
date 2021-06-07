@@ -10,6 +10,8 @@ import {
   FaNodeJs,
   FaReact,
   FaJsSquare,
+  FaMediumM,
+  FaTwitter
 } from "react-icons/fa";
 
 function App() {
@@ -53,6 +55,12 @@ function App() {
         </a>
         <a  href="mailto:matheus.xmaz10@gmail.com">
           <FaGoogle />
+        </a>
+        <a  href="https://medium.com/@matheus-xmaz10">
+          <FaMediumM />
+        </a>
+        <a  href="https://twitter.com/mfortunat00">
+          <FaTwitter />
         </a>
       </div>
     </section>
