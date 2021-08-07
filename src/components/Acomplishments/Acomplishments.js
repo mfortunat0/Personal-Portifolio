@@ -46,7 +46,7 @@ const Acomplishments = () => {
       <Boxes>
         <Box>
           <BoxNum>{data.public_repos}</BoxNum>
-          <BoxText>Open Source Projects</BoxText>
+          <BoxText>Repositories</BoxText>
         </Box>
         <Box>
           <BoxNum>{data.followers}</BoxNum>
