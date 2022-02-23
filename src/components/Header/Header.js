@@ -1,11 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import {
-  AiFillGithub,
-  AiFillMediumSquare,
-  AiFillLinkedin,
-  AiFillCode,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillCode } from "react-icons/ai";
+import { FaDev } from "react-icons/fa";
 
 import {
   Container,
@@ -45,8 +41,8 @@ const Header = () => (
       <SocialIcons href="https://www.linkedin.com/in/matheus-fortunato-14513b195/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://medium.com/@mfortunat0">
-        <AiFillMediumSquare size="3rem" />
+      <SocialIcons href="https://dev.to/mfortunat0">
+        <FaDev size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
